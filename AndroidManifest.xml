@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.taufiq.latihanuasakb5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/systemdesa_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/systemdesa_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Ddr"
+            android:label="@string/title_activity_ddr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Menu_Utama" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
